@@ -1,6 +1,6 @@
+## installation on fresh Raspberry Pi 5
 
-
-install uldaq drivers
+### install uldaq drivers
 
 https://github.com/mccdaq/uldaq
 
@@ -14,8 +14,17 @@ cd libuldaq-1.2.2
 sudo make install
 ```
 
+### install miniforge
 
+```bash
+wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-aarch64.sh
+bash Miniforge3-Linux-aarch64.sh
+source ~/.bashrc
 ```
+
+### create environment
+
+```bash
 conda create -n irfts numpy scipy jupyterlab matplotlib
 conda activate irfts
 pip install uldaq
