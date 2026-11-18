@@ -25,7 +25,8 @@ source ~/.bashrc
 ### create environment (as user - non admin)
 
 ```bash
-conda create -n irfts numpy scipy jupyterlab matplotlib
+conda create -n irfts numpy scipy jupyterlab matplotlib h5py
 conda activate irfts
+pip install pyqt6 pyqtgraph
 pip install uldaq
 ```
