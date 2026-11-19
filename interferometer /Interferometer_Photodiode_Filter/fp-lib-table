@@ -1,0 +1,4 @@
+(fp_lib_table
+ (version 7)
+ (lib (name "Anytek_QT") (type "KiCad") (uri "${KIPRJMOD}/footprints/Anytek_QT.pretty") (options "") (descr "Amphenol Anytek QT terminal blocks"))
+)
